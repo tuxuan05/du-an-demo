@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="vn">
+
+  <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Khảo sát môi trường</title>
+
+   <style>
+    h1 {
+        color:#685752
+    }
+      body {
+ background-color: #8EB486;
+ font-family: Verdana;
+ text-align: center;
+ }
+
+ form {
+ background-color: #FDF7F4;
+ max-width: 80%;
+ margin: 30px auto;
+ padding: 30px 20px;
+ box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
+ color:#685752
+ }
+
+ .form-control {
+  text-align: left;
+  margin-bottom: 25px;
+  }
+
+  .form-control label {
+   display: block;
+   margin-bottom: 10px;
+  }
+
+  .form-control input,
+
+  .form-control select,
+
+  .form-control textarea {
+   border: 1px solid #777;
+   border-radius: 2px;
+   font-family: inherit;
+   padding: 10px;
+   display: block;
+   width: 95%;
+  }
+
+   .form-control input[type="radio"],
+
+   .form-control input[type="checkbox"] {
+   display: inline-block;
+   width: auto;
+   color:#685752;
+  }
+
+   button {
+   background-color: #685752;
+   border: 1px solid #777;
+   border-radius: 2px;
+   font-family: inherit;
+   font-size: 21px;
+   display: block;
+   width: 100%;
+   margin-top: 50px;
+   margin-bottom: 20px;
+   color:#FDF7F4;
+  }
+  footer {
+    color:#685752
+  }
+
+</style>
+
+  </head>
+
+  <body>
+    <h1>Chào mừng bạn!</h1>
+    <form id="form">
+        <p>khảo sát trên được tạo bởi andy</p>
+        <img src="https://i.pinimg.com/736x/d9/d2/3a/d9d23a547bc4f0d895f69d9eb9734936.jpg" alt="gay" style="width:300px;height:150px">
+    <div class="form-control">
+       <label for="name" id="label-name">Họ tên</label>
+       <input type="text"
+                  id="name"
+                  placeholder="Nhập tên của bạn"/>
+        <img src="https://i.pinimg.com/736x/c7/f1/ca/c7f1caa9fc5dd4a700c37cfdf8171375.jpg" style="width:300px;height:150px">
+    </div>
+    
+    <div class="form-control">
+        <label for="email" id="label-email">Email</label>
+        <input type="email" id="email" placeholder="Nhập email của bạn" />
+        <img src="https://i.pinimg.com/736x/69/fd/1b/69fd1b6782a0c5fb19b957af253c2893.jpg" style="width:300px;height:150px">
+    </div>
+    
+    <div class="form-control">
+        <label for="age" id="label-age">Tuổi</label>
+        <input type="text" id="age" placeholder="Nhập tuổi" />
+        <img src="https://i.pinimg.com/736x/94/89/6f/94896fcab10097fe7fe7cd7fb64d76c0.jpg" style="width:300px;height:150">
+    </div>
+    
+    <div class="form-control">
+      <label for="role" id="label-role">Hiện tại bạn đang là?</label>
+             <select name="role" id="role">
+          <option value="student">Học sinh/Sinh viên</option>
+          <option value="intern">Thực tập</option>
+          <option value="professional">Nhân viên</option>
+          <option value="other">Khác</option>
+        </select>
+        <img src="https://i.pinimg.com/736x/d6/0a/ec/d60aec4611980007372baba7022c0b86.jpg" style="width:300px;height:150px">
+    </div>
+    
+    <div class="form-control">
+        <label>Bạn sẽ say gex với bạn bè chứ?</label>
+        <label for="recommed-1">
+        <input type="radio" id="recommed-1" name="recommed" value="yes">Có</input>
+        </label>
+        <label for="recommed-2">
+        <input type="radio" id="recommed-2" name="recommed" value="no">Không</input>
+        </label>
+        <label for="recommed-3">
+        <input type="radio" id="recommed-3" name="recommed" value="maybe">Có thể</input>
+        </label>
+        <img src="https://i.pinimg.com/736x/5b/17/d2/5b17d207e87f4c932c2c9b4c2d6011f2.jpg" style="width:300px;height:150">
+    </div>
+    
+    <div class="form-control">
+         <label>diễn viên sex gay bạn đã biết?
+         <small>(Có thể chọn nhiều đáp án)</small>
+         </label>
+         <label for="inp-1">
+         <input type="checkbox" name="inp" value="william seed">william seed</input>
+         </label>
+         <label for="inp-2">
+         <input type="checkbox" name="inp" value="Malik Delgaty">Malik Delgaty</input>
+         </label>
+         <label for="inp-3">
+         <input type="checkbox" name="inp" value="Dante Colle">Dante Colle</input></label>
+    </div>
+    
+    <div class="form-control">
+        <img src="https://i.pinimg.com/736x/49/4d/27/494d27150645104270e6772734d53d7f.jpg" alt="ur gay" style="width:300px;leght:300px">
+         <label for="comment">Bạn có câu hỏi gì không?</label>
+         <textarea name="comment" id="comment"placeholder="Enter your comment here"></textarea>
+         <img src="https://i.pinimg.com/736x/fc/81/10/fc81106ac7fc7facc9c1c016a213c3ae.jpg" style="width:300px;height:150px">
+    </div>
+    
+    <button type="submit" value="submit">Submit</button>
+    <p>Cảm ơn bạn đã hoàn thành bài khảo sát
+    </p>
+    <img src="https://i.pinimg.com/736x/85/a2/c7/85a2c7fa5e4866f79f54ac1fdcec4bb4.jpg" style="width:300px;height:250px">
+    </form>
+    <footer>Copyright © 2024-2021 OnlineGayShop.
+
+        All Rights are reserved</footer>
+    </body>
+
+</html>
